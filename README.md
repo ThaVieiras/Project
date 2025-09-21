@@ -2,7 +2,7 @@
 
 Uma aplicação web simples desenvolvida para determinar o signo zodiacal de um usuário com base em sua data de nascimento. O projeto foi criado como uma atividade prática para aplicar conceitos de desenvolvimento web, utilizando PHP para o back-end e Bootstrap para um design responsivo.
 
-![Demonstração do Projeto](assets/imgs/screenshot.png)
+![Demonstração do Projeto](assets/imgs/Descobrir Signo.png)
 
 ---
 
