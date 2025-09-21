@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif; 
+  /* Fundo com um gradiente suave de lilás */
+  background: linear-gradient(135deg, #f3e7e9 0%, #e3eeff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo do card branco que envolve o conteúdo */
+.form-container,
+.result-container {
+  max-width: 420px;
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+}
+
+/* Efeito de "levantar" o card ao passar o mouse */
+.form-container:hover,
+.result-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Título principal (Ex: "Qual é o seu Signo?") */
+h1, h2 {
+    color: #8a2be2; 
+}
+
+/* Customização do botão principal */
+.btn-primary {
+  background-color: #8a2be2; /* Cor principal do botão */
+  border-color: #8a2be2;
+  font-weight: 600;
+  padding: 0.75rem;
+  transition: all 0.3s ease; /* Transição suave para o hover */
+}
+
+/* Efeito do botão ao passar o mouse por cima */
+.btn-primary:hover {
+  background-color: #7B1FA2; /* Um tom mais escuro para o efeito */
+  border-color: #7B1FA2;
+  transform: scale(1.02); /* Efeito de leve aumento */
+}
+
+/* Estilo para o botão "Voltar" na página de resultado */
+.btn-secondary {
+    font-weight: 600;
+    padding: 0.75rem;
+    background-color: #8a2be2;
+}
